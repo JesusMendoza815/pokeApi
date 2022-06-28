@@ -1,6 +1,14 @@
-img { 
-    height: 340px;
-    width: auto;
+@media screen and (min-width: 720px){
+    img { 
+        height: 250px !important;
+        width: auto !important;
+    }
+}
+@media screen and (max-width: 480px){
+    img { 
+        height: auto !important;
+        width: auto !important;
+    }
 }
 
 .card {
